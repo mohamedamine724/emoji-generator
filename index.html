@@ -14,7 +14,7 @@
 		<embed src="sounds/intro.mp3" autostart=true llop=true width="0" height="0">
 	</head>
 	
-	
+	<body>
 	<?php 
 		echo "INICI";
 		$get_data = callAPI('GET', 'https://emoji-api.com/categories/flags?access_key=0d7ed6a5ec106fbdaff3e862c99b3750908d0077',false);
@@ -24,4 +24,6 @@
 		print_r($data);
 		echo "FINAL";
 	?>
+			</body>
+
 </html>
